@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Octin Sports";
+  src: url("../fonts/octin sports rg.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Balsamiq";
+  src: url("../fonts/BalsamiqSans-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background: skyblue;
+  margin: 20px 80px;
+}
+
+h1,
+h2 {
+  font-family: "Balsamiq";
+  display: flex;
+  justify-content: center;
+}
+
+p,
+li {
+  font-size: 20px;
+  font-family: "Balsamiq";
+}
+
+.navbar {
+  margin-bottom: 6rem;
+  position: relative;
+}
+.navbar-page {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a,
+.navbar li {
+  font-family: "Octin Sports";
+}
+
+.row {
+  display: flex;
+}
+.row-top {
+  justify-content: space-around;
+}
+
+.row-bottom {
+  margin-top: 15rem;
+  justify-content: space-between;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.hero-logo {
+  display: block;
+  margin: 100px auto;
+  margin-top: 10px;
+}
+
+.home-container a {
+  font: bold 26px Arial;
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #cccccc;
+}
+
+#home-movie-title {
+  margin-top: 80px;
+}
+
+#page-cast:before,
+#page-interview:before,
+#page-soundtrack:before,
+#page-reviews:before,
+#page-game:before,
+#page-trivia:before,
+#page-about:before {
+  content: "";
+  background-size: contain;
+  width: 110px;
+  height: 110px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#page-reviews,
+#page-trivia {
+  margin-top: -16rem;
+}
+
+#page-cast:before {
+  background-image: url("https://alaco-assets.s3.amazonaws.com/trophy.png");
+}
+#page-interview:before {
+  background-image: url("https://alaco-assets.s3.amazonaws.com/853k6phmuqqjo6jrit0473hada.png");
+}
+#page-soundtrack:before {
+  background-image: url("https://alaco-assets.s3.amazonaws.com/o-rings.png");
+}
+#page-game:before {
+  background-image: url("https://alaco-assets.s3.amazonaws.com/pole-vault.png");
+}
+#page-reviews:before {
+  background-image: url("https://alaco-assets.s3.amazonaws.com/pngtab_area-high-jump-free-content-track-and-field-athletics-clip-art-website-cliparts.png");
+}
+#page-reviews:before {
+  background-image: url("https://alaco-assets.s3.amazonaws.com/pngtab_area-high-jump-free-content-track-and-field-athletics-clip-art-website-cliparts.png");
+}
+#page-trivia:before {
+  background-image: url("https://alaco-assets.s3.amazonaws.com/PinClipart.com_hammer-clip-art_5227744.png");
+}
+#page-about:before {
+  background-image: url("https://alaco-assets.s3.amazonaws.com/winner.png");
+}
+.terms-link {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+}
